@@ -1,6 +1,7 @@
-#first winget install --id GitHub.cli
-gh auth login
-winget install --id Microsoft.Powershell --source winget
+#first
+ #winget install --id GitHub.cli
+# gh auth login
+# winget install --id Microsoft.Powershell --source winget
 
 
 $repo_owner = "wp-plugins"
