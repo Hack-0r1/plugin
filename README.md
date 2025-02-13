@@ -1,3 +1,8 @@
+#first winget install --id GitHub.cli
+gh auth login
+winget install --id Microsoft.Powershell --source winget
+
+
 $repo_owner = "wp-plugins"
 $batch_size = 100  # Reduce batch size to avoid memory issues
 $max_parallel_jobs = 10  # Reduce parallel jobs to prevent stack overflow
