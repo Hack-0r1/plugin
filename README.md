@@ -1,8 +1,17 @@
-#first
- #winget install --id GitHub.cli
-# gh auth login
-# winget install --id Microsoft.Powershell --source winget
-
+#first to clone wp plugin
+step 1: update the powershell 
+```
+winget install --id Microsoft.Powershell --source winget
+```
+step 2 : 
+ ```
+winget install --id GitHub.cli
+```
+step 3 : auth github
+```
+gh auth login
+```
+final step :
 ```
 $repo_owner = "wp-plugins"
 $batch_size = 100  # Reduce batch size to avoid memory issues
