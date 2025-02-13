@@ -3,7 +3,7 @@ step 1: update the powershell
 ```
 winget install --id Microsoft.Powershell --source winget
 ```
-step 2 : 
+step 2 : git cli installing
  ```
 winget install --id GitHub.cli
 ```
